@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    // Sequence List
+    // Sequence List test
     SqList L;
     InitList(L);
 

@@ -7,8 +7,11 @@
 
 #include "Define.h"
 #include <cstdlib>
+#include <iostream>
 
-// Link List Node
+using namespace std;
+
+// Single Link List Node
 typedef struct LNode{
     ElemType data;
     struct LNode *next;
@@ -61,9 +64,43 @@ LNode *GetElem(LinkList L, int index){
 
 LNode *LocateElem(LinkList L, ElemType e){
     LNode *p = L -> next;
-    while (p != NULL){
-        
+    while (p != NULL && p->data != e)
+        p = p -> next;
+    return p;
+}
+
+void DeleteByIndex(LinkList &L, int index){
+    LNode *p, *q;
+    p = GetElem(L, index-1);
+    q = p->next;
+    p->next = q->next;
+    free(q);
+}
+
+void DeleteByElem(LinkList &L, ElemType e){
+    LNode *p, *q;
+    p = LocateElem(L, e);
+    q = p->next;
+    p->data = q->data;
+    p->next = q->next;
+    free(q);
+}
+
+LinkList List_HeadInsert(LinkList &L){
+    LNode *s; ElemType e;
+    InitList(L);
+    std::cin >> e;
+    while (e != ERROR){
+        s = new LNode;
+        s -> data = e;
+        s -> next = L -> next;
+        L -> next = s;
+        std::cin >> e;
     }
+    return L;
+}
+
+LinkList List_TailInsert(LinkList &L){
 
 }
 
