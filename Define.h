@@ -9,5 +9,7 @@
 #define InitSize 100
 #define ElemType int
 #define ERROR -1
+#define Status int
+#define OK 1
 
 #endif //DATASTRUCTUREEXERCISE_DEFINE_H
