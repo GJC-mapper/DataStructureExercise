@@ -1,3 +1,3 @@
-/Users/gjc/CLionProjects/DataStructureExercise/cmake-build-debug/CMakeFiles/DataStructureExercise.dir
-/Users/gjc/CLionProjects/DataStructureExercise/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/gjc/CLionProjects/DataStructureExercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Project/ClionProjects/DataStructureExercise/cmake-build-debug/CMakeFiles/DataStructureExercise.dir
+D:/Project/ClionProjects/DataStructureExercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Project/ClionProjects/DataStructureExercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir

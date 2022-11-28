@@ -96,7 +96,7 @@ LinkList List_HeadInsert(LinkList &L){
         s -> next = L -> next;
         L -> next = s;
         std::cin >> e;
-    }
+    } 
     return L;
 }
 
