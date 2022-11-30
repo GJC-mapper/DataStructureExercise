@@ -3,4 +3,4 @@ project(DataStructureExercise)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(DataStructureExercise main.cpp Define.h SqList.h LinkList.h Bitree.h)
+add_executable(DataStructureExercise main.cpp Define.h SqList.h LinkList.h Bitree.h Tree.h)

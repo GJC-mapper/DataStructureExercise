@@ -94,6 +94,9 @@
 		<Unit filename="D:/Project/ClionProjects/DataStructureExercise/SqList.h">
 			<Option target="DataStructureExercise"/>
 		</Unit>
+		<Unit filename="D:/Project/ClionProjects/DataStructureExercise/Tree.h">
+			<Option target="DataStructureExercise"/>
+		</Unit>
 		<Unit filename="D:/Project/ClionProjects/DataStructureExercise/main.cpp">
 			<Option target="DataStructureExercise"/>
 		</Unit>
